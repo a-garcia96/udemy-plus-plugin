@@ -1,0 +1,26 @@
+# WordPress block plugin specific ignores
+*.log
+*.DS_Store
+*.idea/
+.vscode/
+node_modules/
+build/
+
+# Dependencies
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# WordPress specific
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*/
+
+# Editor and OS files
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
